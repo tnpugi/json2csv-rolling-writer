@@ -1,10 +1,13 @@
 {
   "name": "json2csv-rolling-writer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a convenience tool to write a rolling jsonline file/stream to a partial csv file (with headers or columns in a separate file)",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "json2csv-rolling-writer": "^1.0.1"
   },
   "repository": {
     "type": "git",
