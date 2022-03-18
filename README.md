@@ -22,7 +22,7 @@ const opts = {
 }
 const csvRollingWriter = new Json2CsvRollingWriter({...opts});
 jsonLines.forEach((line) => {
-  csvRollingWriter.write(line);
+  csvRollingWriter.rollingWrite(line);
 });
 ```
 
