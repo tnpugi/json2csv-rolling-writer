@@ -1,0 +1,30 @@
+{
+  "name": "json2csv-rolling-writer",
+  "version": "1.0.0",
+  "description": "This is a convenience tool to write a rolling jsonline file/stream to a partial csv file (with headers or columns in a separate file)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnpugi/json2csv-rolling-writer.git"
+  },
+  "keywords": [
+    "json2csv",
+    "jsonline",
+    "rolling-writer",
+    "csv",
+    "nodejs",
+    "javascript"
+  ],
+  "author": {
+    "name": "Tan Lonceras",
+    "email": "pocoyorocks.etc@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tnpugi/json2csv-rolling-writer/issues"
+  },
+  "homepage": "https://github.com/tnpugi/json2csv-rolling-writer#readme"
+}
